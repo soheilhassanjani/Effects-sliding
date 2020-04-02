@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- slide version 1 -->
+        <h1>Slide Version 1</h1>
+        <button id="toggle-box-1">Toggle Box 1</button>
+        <div id="box-1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quasi perferendis distinctio
+            explicabo voluptatem veniam cumque sit fugiat ipsa vel, dolore, ea eveniet consectetur laboriosam ab.
+            Distinctio
+            perspiciatis fugit at?
+        </div>
+    </div>
+
+    <script src="slide-v1.js"></script>
+    <script>
+        // slide version 1
+        const btnBox1=document.querySelector('#toggle-box-1');
+        const box1=document.querySelector('#box-1');
+        btnBox1.addEventListener('click',()=>{
+            slide.toggle(box1,500)
+        });
+    </script>
+</body>
+
+</html>

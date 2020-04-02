@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 1rem auto;
+    width: 60vw;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+#toggle-box-1{
+    padding: .5rem 1rem;
+    background-color: cadetblue;
+    border: 1px solid rgb(52, 113, 116);
+    color: #f6f6f6;
+    margin: 1rem 0;
+    outline: none;
+    cursor: pointer;
+}
+
+#box-1{
+    padding: 1rem;
+    background-color: coral;
+    border: 1px solid rgb(204, 89, 47);
+    color: #f6f6f6;
+}
